@@ -8,6 +8,18 @@
 * Copyright 2011-2017 The Bootstrap Authors 
 * Copyright 2011-2017 Twitter, Inc. 
 * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)*/
+
+@font-face {
+  font-family: "Anoxic SC Medium";
+  src: url("https://db.onlinewebfonts.com/t/5e7ae6711791070c21085e68e1b84b99.eot");
+  src: url("https://db.onlinewebfonts.com/t/5e7ae6711791070c21085e68e1b84b99.eot?#iefix")format("embedded-opentype"),
+      url("https://db.onlinewebfonts.com/t/5e7ae6711791070c21085e68e1b84b99.woff2")format("woff2"),
+      url("https://db.onlinewebfonts.com/t/5e7ae6711791070c21085e68e1b84b99.woff")format("woff"),
+      url("https://db.onlinewebfonts.com/t/5e7ae6711791070c21085e68e1b84b99.ttf")format("truetype"),
+      url("https://db.onlinewebfonts.com/t/5e7ae6711791070c21085e68e1b84b99.svg#Anoxic SC Medium")format("svg");
+}
+
+
 :root {
   --blue: #1761e0;
   --indigo: #3d5afe;
@@ -307,7 +319,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: inherit;
   font-weight: 700;
   line-height: 1.5;
-  color: #ffffff; }
+  color: rgb(255, 204, 51); }
 
 h1, .h1 {
   font-size: 3rem; }
@@ -316,7 +328,8 @@ h2, .h2 {
   font-size: 2.5rem; }
 
 h3, .h3 {
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+}
 
 h4, .h4 {
   font-size: 1.375rem; }
