@@ -19,6 +19,9 @@
       url("https://db.onlinewebfonts.com/t/5e7ae6711791070c21085e68e1b84b99.svg#Anoxic SC Medium")format("svg");
 }
 
+.logo-arbol-nav{
+  width: 35%;
+}
 
 :root {
   --blue: #1761e0;
