@@ -30,7 +30,8 @@
         <div class="container-fluid">
             <nav class="navbar navbar-expand-md navbar-dark">
                 <a class="navbar-brand heading-black" href="index.html">
-                <img src="img/logo-blanco.png" class="logo-arbol-nav" alt="logo árbol de Computer Z">
+                    <!-- logo arbol en psd no funciona, ni en tiff, guardar de otra forma en photopea? -->
+                <img src="img/iconoZ.png" class="logo-arbol-nav" alt="logo árbol de Computer Z">
                 </a>
                 <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse"
                     data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
@@ -43,13 +44,17 @@
                             <a class="nav-link page-scroll" href="#features">Inicio</a>
                         </li>
                         <li class="nav-item">
+                        <!-- añadida clase servicios para hacer scroll, no funciona -->
+                            <a class="nav-link page-scroll" href="#features">Servicios</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link page-scroll" href="#pricing">Empresa</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link page-scroll" href="#faq">Proximamente</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link page-scroll" href="#blog">Contacto</a>
+                            <a class="nav-link page-scroll" href="#contacto">Contacto</a>
                         </li>
                 
                     </ul>
@@ -79,13 +84,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 mx-auto text-center">
-                    <h2 class="heading-black">Knight offers everything you need.</h2>
+                    <h2 class="heading-black">Nuestros servicios</h2>
                     <p class="text-muted lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in
                         nisi
                         commodo, tempus odio a, vestibulum nibh.</p>
                 </div>
             </div>
-            <div class="row mt-5">
+            <!-- añadida clase servicios para scroll, no funciona -->
+            <div class="row mt-5 servicios">
                 <div class="col-md-10 mx-auto">
                     <div class="row feature-boxes">
                         <div class="col-md-6 box">
@@ -94,7 +100,7 @@
                                     <span data-feather="edit-3" width="35" height="35"></span>
                                 </div>
                             </div>
-                            <h5>Create once. Share everywhere.</h5>
+                            <h5>Reparación de ordenadores</h5>
                             <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in
                                 nisi commodo, tempus odio a, vestibulum nibh.</p>
                         </div>
@@ -104,7 +110,7 @@
                                     <span data-feather="monitor" width="35" height="35"></span>
                                 </div>
                             </div>
-                            <h5>Unlimited devices</h5>
+                            <h5>Equipos a medida</h5>
                             <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in
                                 nisi commodo, tempus odio a, vestibulum nibh.</p>
                         </div>
@@ -114,7 +120,7 @@
                                     <span data-feather="layout" width="35" height="35"></span>
                                 </div>
                             </div>
-                            <h5>Beautiful tempates & layouts</h5>
+                            <h5>Instalación de redes</h5>
                             <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in
                                 nisi commodo, tempus odio a, vestibulum nibh.</p>
                         </div>
@@ -124,7 +130,27 @@
                                     <span data-feather="globe" width="35" height="35"></span>
                                 </div>
                             </div>
-                            <h5>Available globally</h5>
+                            <h5>Diseño y desarrollo de páginas web</h5>
+                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in
+                                nisi commodo, tempus odio a, vestibulum nibh.</p>
+                        </div>
+                        <div class="col-md-6 box">
+                            <div class="icon-box box-info">
+                                <div class="icon-box-inner">
+                                    <span data-feather="globe" width="35" height="35"></span>
+                                </div>
+                            </div>
+                            <h5>Ciberseguridad</h5>
+                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in
+                                nisi commodo, tempus odio a, vestibulum nibh.</p>
+                        </div>
+                        <div class="col-md-6 box">
+                            <div class="icon-box box-info">
+                                <div class="icon-box-inner">
+                                    <span data-feather="globe" width="35" height="35"></span>
+                                </div>
+                            </div>
+                            <h5>CCTV</h5>
                             <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in
                                 nisi commodo, tempus odio a, vestibulum nibh.</p>
                         </div>
@@ -229,7 +255,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="row mt-5">
+            <div class="row mt-5 servicios">
                 <div class="col-md-8 col-12 divider top-divider mx-auto pt-5 text-center">
                     <h3>Try Knight free for 7 days</h3>
                     <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in nisi commodo,
@@ -361,7 +387,7 @@
     </section> -->
 
    <!--footer-->
-<footer class="py-6">
+<footer id="contacto" class="py-6">
     <div class="container">
         <div class="row">
             <div class="col-sm-5 mr-auto">
