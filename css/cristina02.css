@@ -22,6 +22,9 @@
 .logo-arbol-nav{
   height: 140px;
 }
+.logoOscuroHeader{
+  width: 25%;
+}
 
 :root {
   --blue: #1761e0;
