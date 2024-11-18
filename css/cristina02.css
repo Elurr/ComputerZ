@@ -18,9 +18,14 @@
       url("https://db.onlinewebfonts.com/t/5e7ae6711791070c21085e68e1b84b99.ttf")format("truetype"),
       url("https://db.onlinewebfonts.com/t/5e7ae6711791070c21085e68e1b84b99.svg#Anoxic SC Medium")format("svg");
 }
-
+.navbar-brand .logo-arbol-nav{
+  display: none;
+}
 .logo-arbol-nav{
-  height: 140px;
+  height: 3rem;
+}
+.logoOscuroHeader{
+  width: 25%;
 }
 
 :root {
@@ -3120,7 +3125,14 @@ input[type="button"].btn-block {
       -ms-flex-preferred-size: auto;
           flex-basis: auto; }
     .navbar-expand-sm .navbar-toggler {
-      display: none; } }
+      display: none; } 
+    
+      .navbar-brand .logo-arbol-nav {
+        display: block;
+      } 
+    }
+
+     
 
 @media (max-width: 767.98px) {
   .navbar-expand-md > .container,
