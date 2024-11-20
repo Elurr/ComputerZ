@@ -18,6 +18,15 @@
       url("https://db.onlinewebfonts.com/t/5e7ae6711791070c21085e68e1b84b99.ttf")format("truetype"),
       url("https://db.onlinewebfonts.com/t/5e7ae6711791070c21085e68e1b84b99.svg#Anoxic SC Medium")format("svg");
 }
+@font-face {
+  font-family: "Anoxic Light";
+  src: url("https://db.onlinewebfonts.com/t/552aeb9491682bdb683c47dace01f66d.eot");
+  src: url("https://db.onlinewebfonts.com/t/552aeb9491682bdb683c47dace01f66d.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/552aeb9491682bdb683c47dace01f66d.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/552aeb9491682bdb683c47dace01f66d.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/552aeb9491682bdb683c47dace01f66d.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/552aeb9491682bdb683c47dace01f66d.svg#Anoxic Light")format("svg");
+}
 .navbar-brand .logo-arbol-nav{
   display: none;
 }
@@ -27,6 +36,37 @@
 .logoOscuroHeader{
   width: 25%;
 }
+
+.liFilosofia{
+ list-style: none;
+}
+
+.z-computerz{
+  font-size: 3.5rem;
+ 
+}
+
+#carrusel-tienda{
+  width: 90%;
+  margin-top: 50px;
+}
+
+.bi-fingerprint{
+  font-size: 2rem;
+  background-color: rgba(12, 70, 75, 0.5);
+  border-radius: 50%;
+  padding: 15px;
+  color: #00e5ff;
+}
+.bi-camera-video{
+  font-size: 2rem;
+  background-color: rgba(12, 70, 75, 0.5);
+  border-radius: 50%;
+  padding: 15px;
+  color: #00e5ff;
+}
+
+
 
 :root {
   --blue: #1761e0;
@@ -95,7 +135,8 @@ hr {
   height: 0;
   overflow: visible; }
 
-h1, h2, h3, h4, h5, h6 {
+
+ h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 1rem; }
 
@@ -331,7 +372,7 @@ h1, h2, h3, h4, h5, h6,
 
 h1, .h1 {
   font-size: 3rem;
-  font-family: "Anoxic SC Medium"; }
+  font-family: "Anoxic Light"; }
 
 h2, .h2 {
   font-size: 2.5rem; 
