@@ -7824,6 +7824,13 @@ footer h5 {
       padding: 1.25rem; }
     .icon-box .icon-box-inner.small-xs {
       padding: 1rem; }
+.icon-box .icon-box-inner i {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  height: 35px;
+  width: 35px;
+}      
 
 /*all themes colors*/
 .bg-black {
