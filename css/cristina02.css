@@ -38,6 +38,12 @@
   margin-top: 100px;
 }
 
+.bi-cpu{
+  color: rgb(255, 204, 51);
+  
+}
+
+
 .liFilosofia{
  list-style: none;
 }
@@ -61,7 +67,6 @@
 
 }
 
-
 /*li de barra de navegación*/
 #navbarCollapse ul{
   margin-top: 20px;
@@ -71,6 +76,14 @@
 
 #navbarCollapse ul a{
   color: rgb(255, 204, 51);;
+}
+
+.card-body p{
+  text-align: justify ;
+}
+
+.card-body ul{
+  text-align: justify;
 }
 
 :root {
