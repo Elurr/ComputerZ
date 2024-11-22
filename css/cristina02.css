@@ -35,6 +35,7 @@
 }
 .logoOscuroHeader{
   width: 25%;
+  margin-top: 100px;
 }
 
 .liFilosofia{
@@ -61,6 +62,16 @@
 }
 
 
+/*li de barra de navegación*/
+#navbarCollapse ul{
+  margin-top: 20px;
+  text-align: end;
+}
+
+
+#navbarCollapse ul a{
+  color: rgb(255, 204, 51);;
+}
 
 :root {
   --blue: #1761e0;
@@ -370,11 +381,11 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: 2.5rem; 
-  font-family: "Anoxic SC Medium";}
+  font-family: "Anoxic Light";}
 
 h3, .h3 {
   font-size: 1.5rem;
-  font-family: "Anoxic SC Medium";
+  font-family: "Anoxic Light";
 }
 
 h4, .h4 {
@@ -1481,6 +1492,7 @@ pre {
   border: 2px solid #CFD8DC;
   border-radius: 0.3rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
+
   @media screen and (prefers-reduced-motion: reduce) {
     .form-control {
       transition: none; } }
